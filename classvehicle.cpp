@@ -1,3 +1,4 @@
+// create a class vehivle for its derived class bike and car
 #include<iostream>
 #include<string>
 using namespace std;
@@ -5,6 +6,7 @@ using namespace std;
 class vehicle{
 public:
     void speed(){
+        cout<<"aapki gaadoyo ki jaankari niche di gayi hai "<<endl;
         cout<<"har car ki speed limit hoti hai"<<endl;
     }
 

@@ -63,8 +63,8 @@ public:
 int main() {
     Employee* employees[2];
 
-    employees[0] = new Manager("Alice Johnson", 5000.0, 1200.0);
-    employees[1] = new Engineer("Bob Smith", 40.0, 160);
+    employees[0] = new Manager("Alex carry", 5000.0, 1200.0);
+    employees[1] = new Engineer("Sanidhya Pathak", 40.0, 160);
 
     for (int i = 0; i < 2; ++i) {
         employees[i]->displayDetails();

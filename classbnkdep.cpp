@@ -29,7 +29,7 @@ else {
 
 // for withdraw method
 void withdraw (double amount){
-    if (amount>0&&amount<=balance){
+    if (amount>0 && amount<=balance){
         balance = balance-amount;
         cout<<"withdrawl amount :"<<amount <<endl<<"new | balance "<<balance<<endl;
     }

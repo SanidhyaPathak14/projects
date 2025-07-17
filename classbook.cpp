@@ -24,6 +24,6 @@ void displayDetails(){
 };
 
 int main (){
-    book b1("Chetan bhagat", "A Millionaire ",250);
+    book b1("Kevin Peterson ", "A Millionaire ",250);
     b1.displayDetails();
 }

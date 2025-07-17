@@ -10,7 +10,8 @@ string position;
 double salary;
 
 
-// define our own constructor 
+// define our own constructor....
+
 employee (string n,string p,double s){
     name =n;
     position = p;
@@ -25,8 +26,6 @@ void displayDetails (){
 };
 
 int main(){
-employee emp("Sanidhya pathak","HR",100000.00);
+employee emp("Sanidhya pathak","Owner",100000.00);
 emp.displayDetails();
-
-
 }

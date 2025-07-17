@@ -1,4 +1,4 @@
-// write a program for derived class programs  
+// write a program for derived class .
 
 #include<iostream>
 #include<string>
@@ -19,6 +19,7 @@ cout<<"take healthy diet" <<endl;
 class cricket : public sports{
 public:
    void boundary(){
+      
       cout<<"hit the boundaries "<<endl;
    }
 };
